@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Phone book</title>
+    <link rel="icon" type="image/x-icon" href="Cat3.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="profile-label">
-        <h1 id="username">Hello World</H1>
+        <a href="https://github.com/CyanKagami" class="profile-name" target="_blank">
+            <h1 id="username">Boonsita Jongklom 67070094</h1>
+        </a>
         <div class="profile" id="profile">
             <div class="circle">
                 <p>1</p>
@@ -24,6 +27,22 @@
             <input type="text" placeholder="input profile image url" id="input-profile">
             <button class="profile-button" onclick="change_image()" value="submit">Set</button>
         </div>
+        <h2>Phone Number List</h2>
+        <div class="input-box">
+            <label for="">Name</label>
+            <input type="text" placeholder="input name" id="input-phone-name">
+            <label for="">Phone Number</label>
+            <input type="text" placeholder="input phone number" id="input-phone">
+            <button class="profile-button" onclick="add_phone()" value="submit">Add</button>
+            <button class="profile-button" onclick="saveCSV()" value="submit">Export</button>
+        </div>
+        <table id="phone-table">
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </table>
     </div>
 </body>
 <script src="script.js"></script>

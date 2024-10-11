@@ -167,12 +167,13 @@ h2{
     background-position: left;
     background-size: cover;
     position: relative;
+    margin: 0.4rem;
 }
 .circle{
     height: 2rem;
     width: 2rem;
     border-radius: 100%;
-    background-color: #499cb3;
+    background-color: #b34969;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,6 +188,7 @@ h2{
     align-items: center;
     width: 100%;
     gap: 1rem;
+    padding-bottom: 10rem;
 }
 .profile-button{
     padding: 0.5rem;
@@ -204,4 +206,27 @@ input{
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+table{
+    width: 60%;
+    text-align: left;
+    border-collapse: collapse;
+    border: solid #499cb3 2px;
+}
+th{
+    background-color: #499cb3;
+    color: white;
+    padding: 1rem;
+}
+td{
+    padding: 1rem;
+    border-collapse: collapse;
+    border-bottom: solid #499cb3 2px;
+}
+.profile-name{
+    text-decoration: none;
+}
+.profile-name :hover{
+    color: #473c9f;
+    text-decoration: underline;
 }
