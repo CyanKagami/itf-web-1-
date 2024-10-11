@@ -1,0 +1,207 @@
+p{
+    font-size:1.5rem ;
+}
+body{
+    margin: 0;
+    color: #164b5a;
+}
+.navbar{
+    background-color: #499cb3;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    padding-inline: 2rem;
+    column-gap: 1rem;
+    justify-content: space-between;
+}
+.navitem{
+    color: white;
+    font-size: 1.2rem;
+}
+.nav-container{
+    display: flex;
+    column-gap: 1rem;
+}
+.navbar img{
+    width: 2rem;
+}
+.home{
+    margin-inline: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+h1{
+    font-size: 2.5rem;
+    color: #164b5a;
+}
+footer{
+    background-color: #499cb3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0;
+    padding-block: 2rem;
+}
+footer p{
+    color: white;
+}
+footer button{
+    background-color: white;
+}
+footer button:hover{
+    background-color: #0f4b5b;
+}
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    gap:2rem
+}
+.nav-container a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.nav-container a:hover{
+    color: rgb(100, 2, 166);
+}
+.card{
+    border-style:solid ;
+    border-width: 2px;
+    border-color: #499cb3;
+    width: 80%;
+    height: 15rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 20px;
+}
+.card-item{
+    color: #164b5a;
+    grid-column: span 2;
+    text-align: left;
+    margin-left: 2rem;
+    height: 10rem;
+}
+.card-item p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2rem;
+    justify-items: center;
+    
+}
+.card img{
+    height: 10rem;
+    width: 9rem;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid;
+    border-color: #499cb3;
+    justify-content: center;
+}
+.row-item{
+    display: flex;
+    margin: 1.5rem 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+}
+button{
+    color: #164b5a;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 1rem;
+    padding-inline: 2rem;
+    font-size: medium;
+    background-color: white;
+    border: solid #499cb3;
+    cursor: pointer;
+    font-size: large;
+}
+button:hover{
+    background-color: #499cb3;
+    color: white;
+    
+}
+#git-hub{
+    border: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 4.5rem;
+}
+.pupr{
+    object-fit: cover;
+    object-position:10% 50%;
+    margin-right: 3rem;
+}
+.klong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5rem;
+}
+.klong img{
+    height: 20rem;
+}
+h2{
+    padding-top: 0;
+    margin-top: 0;
+}
+.profile{
+    height: 15rem;
+    width: 15rem;
+    background-color: #499cb3;
+    border-radius: 100%;
+    background-image: url("klongGrayScrenn.png");
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+.circle{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    background-color: #499cb3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
+.profile-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.profile-button{
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    font-size: medium;
+    border-radius: 10px;
+}
+input{
+    background-color: #e3e3e3;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.input-box{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}

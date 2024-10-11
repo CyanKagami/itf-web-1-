@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-label">
+        <h1 id="username">Hello World</H1>
+        <div class="profile" id="profile">
+            <div class="circle">
+                <p>1</p>
+            </div>
+        </div>
+        <div class="input-box">
+            <label for="">Set username</label>
+            <input type="text" placeholder="input username" id="input-username">
+            <button class="profile-button" onclick="change_username()" value="submit">Set</button>
+        </div>
+        <div class="input-box">
+            <label for="">Set profile</label>
+            <input type="text" placeholder="input profile image url" id="input-profile">
+            <button class="profile-button" onclick="change_image()" value="submit">Set</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
